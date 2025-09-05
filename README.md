@@ -1,6 +1,6 @@
 📅 Week 1 Tasks
 
-This week covers 4 introductory Machine Learning / Data Analysis tasks.
+This week covers 3 introductory Data Science & Analysis tasks.
 
 ✅ Task 1: Titanic Dataset EDA
 1) Performed **Data cleaning**:
