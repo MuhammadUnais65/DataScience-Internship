@@ -13,29 +13,29 @@ This week covers 4 introductory Machine Learning / Data Analysis tasks.
 3) **Key Insights:**
   - Females had a higher survival rate than males
   - Younger passengers had better survival chances
+  - Higher class passengers (Pclass 1) had better chances of survival.
   - Fare correlated positively with survival
 
 ✅ Task 2: Sentiment Analysis (IMDB Reviews)
 1) Preprocessed reviews:
   - Lowercased text
   - Removed stopwords & special characters
-- Converted text into numerical format using **CountVectorizer (Bag of Words)**
-- Trained a **Logistic Regression model**
-2) **Evaluation:**
-  - Accuracy: `XX%`  ← (replace with your score)
-  - Optional: Precision/Recall available in notebook
-3) **Example Predictions:**
-  - "This movie was fantastic!" → Positive
-  - "Worst film ever." → Negativ
+2) Converted text into numerical format using **CountVectorizer (Bag of Words)**
+3) Trained a **Logistic Regression model**
+4) **Evaluation:**
+  - Accuracy: `0.8735%`  
+5) **Example Predictions:**
+  - "This movie was fantastic!I loved the story and acting." → Positive
+  - "Worst film ever.Completely boring and a waste of time." → Negative
 
 ✅ Task 3: Predicting House Prices (Boston Housing Dataset)
 1) Normalized numerical features using **StandardScaler**
 2) Trained a **Linear Regression model**
 3) **Evaluation:**
-  - Root Mean Squared Error (RMSE): `XX`  ← (replace with your RMSE)
+  - Root Mean Squared Error (RMSE): `4.928602182665336`  
 4) **Example Prediction:**
-  - Predicted price for sample house: `XX`
-  - Actual price: `XX`
+  - Predicted price for sample house: `28.996723619824877`
+  - Actual price: `23.6`
 
 📌 All tasks include:
 * Clean, well-commented Jupyter Notebooks
