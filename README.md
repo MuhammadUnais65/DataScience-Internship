@@ -28,6 +28,10 @@ This week covers 3 Data Science & Analysis tasks.
   - "This movie was fantastic!I loved the story and acting." → Positive
   - "Worst film ever.Completely boring and a waste of time." → Negative
 
+Dataset: IMDB Movie Reviews
+Source: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+
 ✅ Task 3: Predicting House Prices (Boston Housing Dataset)
 1) Normalized numerical features using **StandardScaler**
 2) Trained a **Linear Regression model**
