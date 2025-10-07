@@ -45,3 +45,70 @@ Source: https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movi
 * Clean, well-commented Jupyter Notebooks
 * Visualizations where applicable
 * Short summary of results
+
+
+
+📅 Week 2 Tasks
+
+
+🧠 Task 1: Term Deposit Subscription Prediction (Bank Marketing)
+🎯 Objective
+Predict whether a bank customer will subscribe to a term deposit after a marketing campaign.
+📂 Dataset
+Bank Marketing Dataset – UCI Machine Learning Repository
+(https://archive.ics.uci.edu/ml/datasets/Bank+Marketing)
+🧰 Tools & Libraries
+pandas, numpy, matplotlib, seaborn, scikit-learn, xgboost, shap
+⚙️ Steps Performed
+•	Loaded and explored the dataset
+•	Encoded categorical features using LabelEncoder
+•	Trained Logistic Regression and Random Forest models
+•	Evaluated using Confusion Matrix, F1-Score, and ROC Curve
+•	Applied SHAP (Explainable AI) to interpret 5 model predictions
+📊 Results & Insights
+•	Random Forest achieved the best F1-score and ROC-AUC.
+________________________________________
+👥 Task 2: Customer Segmentation Using Unsupervised Learning
+🎯 Objective
+Cluster mall customers based on spending habits and suggest marketing strategies for each segment.
+📂 Dataset
+Mall Customers Dataset
+🧰 Tools & Libraries
+pandas, matplotlib, seaborn, sklearn (KMeans, PCA)
+⚙️ Steps Performed
+•	Performed EDA to understand spending behavior and income distribution
+•	Applied K-Means Clustering to create customer segments
+•	Used PCA for 2D visualization of clusters
+•	Suggested targeted marketing strategies based on cluster profiles
+📊 Results & Insights
+•	Identified 3 main customer segments:
+o	🏷️ High spenders – target with premium offers
+o	🛒 Average customers – loyalty rewards
+o	💸 Low spenders – discount campaigns
+•	Helped understand spending diversity and potential revenue sources.
+________________________________________
+📈 Task 3: Interactive Business Dashboard (Streamlit)
+🎯 Objective
+Build an interactive dashboard for analyzing sales, profit, and customer performance.
+📂 Dataset
+Global Superstore Dataset 
+🧰 Tools & Libraries
+streamlit, pandas, plotly.express
+⚙️ Steps Performed
+•	Cleaned and loaded the dataset
+•	Built a Streamlit dashboard with sidebar filters for Region, Category, and Sub-Category
+•	Displayed key performance indicators (KPIs):
+o	💰 Total Sales
+o	📈 Total Profit
+o	🏆 Top 5 Customers by Sales
+•	Created interactive bar and pie charts using Plotly
+📊 Results & Insights
+•	Dashboard allows dynamic filtering and real-time business analysis
+•	Helps management easily track sales trends and top-performing regions
+
+
+
+
+
+
+
