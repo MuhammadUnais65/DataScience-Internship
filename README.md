@@ -1,4 +1,4 @@
-# 📅 Week 1 Tasks
+#  Week 1 Tasks
 
 ---
 
@@ -60,7 +60,7 @@
 
 ---
 
-# 📅 Week 2 Tasks
+#  Week 2 Tasks
 
 ---
 
